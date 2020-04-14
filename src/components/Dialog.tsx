@@ -14,7 +14,7 @@ export function Dialog({
 }: DialogProps) {
   const Content = content ? <p>{content}</p> : null;
   return (
-    <div className="ui-Dialog">
+    <div className="ui-dialog">
       <h2>{title}</h2>
       {Content}
     </div>
